@@ -1,7 +1,8 @@
 
 def speak_to_grandma(greeting)
-  puts "I LOVE YOU TOO PUMPKIN!"
-  
+  if greeting == "I LOVE YOU GRANDMA!"
+    "I LOVE YOU TOO PUMPKIN!"
+  end
 end
 
 
