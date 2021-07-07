@@ -9,5 +9,27 @@
 
 # NO, NOT SINCE 1938!
 
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
+# However if you say 'I LOVE YOU GRANDMA!', she
+#should respond with
+
+
+def speak_to_grandma(string)
+  if string=="I love you grandma!".upcase
+     "I love you too pumpkin!".upcase
+  elsif string!=string.upcase
+    "huh?! speak up, sonny!".upcase
+  else 
+    "no, not since 1938!".upcase
+  end
+end
+#phrase="hi"
+#speak_to_grandma(phrase)
+
+  
+
+
+
+
+
+
 # 'I LOVE YOU TOO PUMPKIN!'
